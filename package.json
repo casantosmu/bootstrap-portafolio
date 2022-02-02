@@ -1,0 +1,16 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sassCompile": "sass --watch scss/main.scss:dist/css/main.min.css --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.3",
+    "sass": "^1.49.0"
+  }
+}
